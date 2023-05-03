@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+
+      "outDir": "dist",
+      "allowJs": true,
+      "target": "es2018",
+      // "strict": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "sourceMap": true,
+      // "checkJs": true,
+      // "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "declaration": true,
+      "skipLibCheck": true
+  },
+  "include": [
+      "src/**/*"
+, "src/storage/cache/managers/.ts"    ],
+  "exclude": [
+      "src/public/**/*",
+      "node_modules"
+  ],
+  "typedocOptions": {
+      "mode": "file",
+      "out": "docs/ts", 
+      "excludeExternals": true,
+      "excludeNotExported": true,
+      "excludePrivate": true,
+      "excludeProtected": true,
+      "toc": [
+        
+      ]
+
+  }
+}
